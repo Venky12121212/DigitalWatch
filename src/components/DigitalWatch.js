@@ -9,7 +9,7 @@ let DigitalWatch = () => {
         return () => {
             clearInterval(timer)
         }
-    }, [])
+    }, []);
 
     return (
         <Fragment>
